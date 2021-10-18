@@ -12,7 +12,7 @@ const ProductCard = (props) => {
                     <div className="image-container">
                         <CardImg top style={{
                             objectFit: 'cover',
-                            borderRadius: '12px 12px 0px 0px'
+                            borderRadius: '12px'
                         }} width="100%" src={img} alt="Card image" />
                     </div>
                     <div className="name-price">
