@@ -1,0 +1,31 @@
+.product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6eef8;
+}
+.product-container{
+    width: 90%;
+}
+.product-section-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0E6389;
+    margin-top: 50px;
+}
+/* .product-list-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+} */
+
+.product-list-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 14px;
+}
