@@ -1,0 +1,30 @@
+[
+    {
+        "key": "01",
+        "name": "Dental Solution",
+        "img": "",
+        "special": "Get Dentist Experts",
+        "price": "Starts from $70"
+    },
+    {
+        "key": "02",
+        "name": "Citiscan",
+        "img": "",
+        "special": "Get Citiscan test",
+        "price": "Starts from $120"
+    },
+    {
+        "key": "03",
+        "name": "Consultancy",
+        "img": "",
+        "special": "Contact Consultant",
+        "price": "Starts from $40 for 1 Hour"
+    },
+    {
+        "key": "04",
+        "name": "Home Nursing",
+        "img": "",
+        "special": "Get Home Nursing service",
+        "price": "Starts from $80 Per day"
+    }
+]

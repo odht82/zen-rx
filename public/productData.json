@@ -8,7 +8,7 @@
     },
     {
         "key": "02",
-        "name": "Weight Measurement machine",
+        "name": "Weight machine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/2.jpg",
         "price": "32.60",
         "review": "4.2"
@@ -57,7 +57,7 @@
     },
     {
         "key": "09",
-        "name": "Rainbow medecine (40)",
+        "name": "Rainbow medecine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/9.jpg",
         "price": "26.20",
         "review": "4.1"
@@ -71,7 +71,7 @@
     },
     {
         "key": "11",
-        "name": "Thermo meter Analogue",
+        "name": "Thermometer Analogue",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/11.jpg",
         "price": "54.20",
         "review": "4.6"
@@ -92,49 +92,49 @@
     },
     {
         "key": "14",
-        "name": "Rizatriptan Tablets 10mg",
+        "name": "Rizatriptan 10mg",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/14.jpg",
         "price": "48.50",
         "review": "4.1"
     },
     {
         "key": "15",
-        "name": "Thermo meter Analogue",
+        "name": "Thermo meter",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/15.jpg",
         "price": "22.10",
         "review": "4.8"
     },
     {
         "key": "16",
-        "name": "Rongin Medicine tablets",
+        "name": "Rongin tablets",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/16.jpg",
         "price": "78.60",
         "review": "4.7"
     },
     {
         "key": "17",
-        "name": "Shobuj Medicine Caps",
+        "name": "Shobuj Medicine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/17.jpg",
         "price": "60.50",
         "review": "4.1"
     },
     {
         "key": "18",
-        "name": "Sergical Mask for all ppl",
+        "name": "Sergical Mask",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/18.jpg",
         "price": "70.20",
         "review": "4.6"
     },
     {
         "key": "19",
-        "name": "Injection with tablet",
+        "name": "Injection & tablet",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/19.jpg",
         "price": "80.32",
         "review": "4.2"
     },
     {
         "key": "20",
-        "name": "Vitamin E (32)",
+        "name": "Vitamin E",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/20.jpg",
         "price": "22.60",
         "review": "4.6"
@@ -162,63 +162,63 @@
     },
     {
         "key": "24",
-        "name": "Digital Thermo meter",
+        "name": "Thermo meter",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/24.jpg",
         "price": "16.20",
         "review": "4.6"
     },
     {
         "key": "25",
-        "name": "Komola ronger dibba Medicine",
+        "name": "Komola Medicine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/25.jpg",
         "price": "18.20",
         "review": "4.8"
     },
     {
         "key": "26",
-        "name": "Tablet medicine stripes",
+        "name": "Tablet medicine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/26.jpg",
         "price": "13.50",
         "review": "4.7"
     },
     {
         "key": "27",
-        "name": "Pressure measurement Machine",
+        "name": "Pressure Machine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/27.jpg",
         "price": "42.10",
         "review": "4.3"
     },
     {
         "key": "28",
-        "name": "Right Leg Ancle ",
+        "name": "Leg Ancle ",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/28.jpg",
         "price": "22.20",
         "review": "4.6"
     },
     {
         "key": "29",
-        "name": "Vibinno prokar medicine",
+        "name": "Vibinno medicine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/29.jpg",
         "price": "32.00",
         "review": "4.6"
     },
     {
         "key": "30",
-        "name": "Aspirin Tablets (40)",
+        "name": "Aspirin Tablets",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/30.jpg",
         "price": "10.00",
         "review": "4.1"
     },
     {
         "key": "31",
-        "name": "Komola ronger medicine (45)",
+        "name": "Komola medicine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/31.jpg",
         "price": "46.00",
         "review": "4.6"
     },
     {
         "key": "32",
-        "name": "Generico medicine (10)",
+        "name": "Generico medicine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/32.jpg",
         "price": "62.00",
         "review": "4.5"
@@ -232,7 +232,7 @@
     },
     {
         "key": "34",
-        "name": "Irinotecan Injection I.P 100",
+        "name": "Irinotecan Injection",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/34.jpg",
         "price": "28.30",
         "review": "4.2"
@@ -253,42 +253,42 @@
     },
     {
         "key": "37",
-        "name": "Rong bironger Medicine",
+        "name": "Rongin Medicine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/37.jpg",
         "price": "40.10",
         "review": "4.8"
     },
     {
         "key": "38",
-        "name": "Baby Weight Machine analogue",
+        "name": "Baby Weight Machine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/38.jpg",
         "price": "120.60",
         "review": "4.4"
     },
     {
         "key": "39",
-        "name": "Weight Machine analogue",
+        "name": "Weight Machine",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/39.jpg",
         "price": "80.20",
         "review": "4.6"
     },
     {
         "key": "40",
-        "name": "Pulse Oxymeter digital",
+        "name": "Pulse Oxymeter",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/40.jpg",
         "price": "60.50",
         "review": "4.6"
     },
     {
         "key": "41",
-        "name": "Pressure measurement analoge",
+        "name": "Pressure measurement",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/41.jpg",
         "price": "40.20",
         "review": "4.4"
     },
     {
         "key": "42",
-        "name": "Oxygen Cyliner (500ml)",
+        "name": "Oxygen Cyliner",
         "img": "https://raw.githubusercontent.com/odht82/fake-image-for-zen-rx/main/42.jpg",
         "price": "90.50",
         "review": "4.5"

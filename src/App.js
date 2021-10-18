@@ -9,6 +9,7 @@ import SignIn from './Components/pages/SignIn/SignIn';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Footer from './Components/pages/Footer/Footer';
+import Pricing from './Components/Pricing';
 
 function App() {
   return (
@@ -21,11 +22,14 @@ function App() {
         <Route exact path='/home'>
           <Home></Home>
         </Route>
+        <Route path='/products'>
+          <Products></Products>
+        </Route>
         <Route path='/services'>
           <Services></Services>
         </Route>
-        <Route path='/products'>
-          <Products></Products>
+        <Route path='/pricing'>
+          <Pricing></Pricing>
         </Route>
         <Route path='/doctors'>
           <Doctors></Doctors>

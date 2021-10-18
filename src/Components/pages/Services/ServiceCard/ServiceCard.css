@@ -8,6 +8,12 @@
     border-radius: 12px;
 }
 
+.card-body:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-out;
+    color: #03738B;
+  }
+  
 .card-details{
     top:0px;
     width: 100%;
@@ -20,7 +26,7 @@
     height: 196px;
     width: 100%;
 }
-.name-price{
+.name-special{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -33,7 +39,7 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-.price{
+.name{
     font-size: 24px;
     font-weight: 800;
     margin: 0px;
@@ -50,7 +56,7 @@
     border-radius: 12px;
     cursor: pointer;
 }
-.cart-add-btn{
+.contact-btn{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +67,7 @@
     cursor: pointer;
     width: 100%;
 }
-.cart-add-btn:hover{
+.contact-btn:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -30,7 +30,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  lightBg: true,
+  lightBg: false,
   lightText: true,
   lightTextDesc: true,
   topLine: 'DOCTORS',
