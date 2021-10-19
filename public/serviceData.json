@@ -2,29 +2,141 @@
     {
         "key": "01",
         "name": "Dental Solution",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/1.jpg",
         "special": "Get Dentist Experts",
         "price": "Starts from $70"
     },
     {
         "key": "02",
         "name": "Citiscan",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/2.jpg",
         "special": "Get Citiscan test",
         "price": "Starts from $120"
     },
     {
         "key": "03",
         "name": "Consultancy",
-        "img": "",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/3.jpg",
         "special": "Contact Consultant",
         "price": "Starts from $40 for 1 Hour"
     },
     {
         "key": "04",
+        "name": "Citiscan",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/4.jpg",
+        "special": "Get Citiscan service",
+        "price": "Starts from $120"
+    },
+    {
+        "key": "05",
+        "name": "Physical test",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/5.jpg",
+        "special": "Get Physical test service",
+        "price": "Starts from $350"
+    },
+    {
+        "key": "06",
+        "name": "Blood Test",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/6.jpg",
+        "special": "Get Blood test service",
+        "price": "Starts from $60"
+    },
+    {
+        "key": "07",
+        "name": "Dialysis",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/7.jpg",
+        "special": "Get Dialysis Service",
+        "price": "Starts from $85 Per day"
+    },
+    {
+        "key": "08",
         "name": "Home Nursing",
-        "img": "",
-        "special": "Get Home Nursing service",
-        "price": "Starts from $80 Per day"
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/8.jpeg",
+        "special": "Get Home nursing Service",
+        "price": "Starts from $70 Per day"
+    },
+    {
+        "key": "09",
+        "name": "Ultrasonography",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/9.jpg",
+        "special": "Get Ultrasonography Service",
+        "price": "Starts from $90"
+    },
+    {
+        "key": "10",
+        "name": "ICU",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/10.jpg",
+        "special": "Get ICU Service",
+        "price": "Starts from $110 Per day"
+    },
+    {
+        "key": "11",
+        "name": "Digital Citiscan",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/11.jpg",
+        "special": "Get Citiscan Service",
+        "price": "Starts from $300"
+    },
+    {
+        "key": "12",
+        "name": "CCU",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/12.jpg",
+        "special": "Get CCU Service",
+        "price": "Starts from $260 Per day"
+    },
+    {
+        "key": "13",
+        "name": "Modern ICU",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/13.jpg",
+        "special": "Get ICU Service",
+        "price": "Starts from $190 Per day"
+    },
+    {
+        "key": "14",
+        "name": "Kidney Transplant",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/14.jpg",
+        "special": "Get Kidney Transplant",
+        "price": "Starts from $17,000"
+    },
+    {
+        "key": "15",
+        "name": "Ultramodern Citiscan",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/15.jpg",
+        "special": "Get Citiscan Service",
+        "price": "Starts from $600"
+    },
+    {
+        "key": "16",
+        "name": "Scieser",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/16.jpg",
+        "special": "Get Scieser Service",
+        "price": "Starts from $230"
+    },
+    {
+        "key": "17",
+        "name": "Oxygen",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/17.jpg",
+        "special": "Get Oxygen Service",
+        "price": "Starts from $70 Per day"
+    },
+    {
+        "key": "18",
+        "name": "CCU",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/18.jpg",
+        "special": "Get CCU Service",
+        "price": "Starts from $170"
+    },
+    {
+        "key": "19",
+        "name": "Brain test",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/19.jpg",
+        "special": "Get Brain test Service",
+        "price": "Starts from $800"
+    },
+    {
+        "key": "20",
+        "name": "Lunge transplant",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/20.jpg",
+        "special": "Get Lunge transplant",
+        "price": "Starts from $15,000"
     }
 ]

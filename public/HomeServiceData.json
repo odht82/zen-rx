@@ -1,0 +1,44 @@
+[
+    {
+        "key": "01",
+        "name": "Dental Solution",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/1.jpg",
+        "special": "Get Dentist Experts",
+        "price": "Starts from $70"
+    },
+    {
+        "key": "02",
+        "name": "Citiscan",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/2.jpg",
+        "special": "Get Citiscan test",
+        "price": "Starts from $120"
+    },
+    {
+        "key": "03",
+        "name": "Consultancy",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/3.jpg",
+        "special": "Contact Consultant",
+        "price": "Starts from $40 for 1 Hour"
+    },
+    {
+        "key": "04",
+        "name": "Home Nursing",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/4.jpg",
+        "special": "Get Home Nursing service",
+        "price": "Starts from $80 Per day"
+    },
+    {
+        "key": "05",
+        "name": "Physical test",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/5.jpg",
+        "special": "Get Physical test service",
+        "price": "Starts from $350"
+    },
+    {
+        "key": "06",
+        "name": "Blood Test",
+        "img": "https://raw.githubusercontent.com/odht82/fake-medical-equipment/main/6.jpg",
+        "special": "Get Blood test service",
+        "price": "Starts from $60"
+    }
+]

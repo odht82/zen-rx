@@ -1,4 +1,4 @@
-.card-body{
+.HomeServicecard-body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,13 +8,13 @@
     border-radius: 12px;
 }
 
-.card-body:hover {
-    transform: scale(1.02);
-    transition: all 0.3s ease-out;
+.HomeServicecard-body:hover {
+    transform: scale(1.HomeService02);
+    transition: all 0.HomeService3s ease-out;
     color: #03738B;
   }
   
-.card-details{
+.HomeServicecard-details{
     top:0px;
     width: 100%;
     padding: 15px;
@@ -22,35 +22,35 @@
     cursor: pointer;
     border-radius: 0px 0px 12px 12px;
 }
-.image-container{
+.HomeServiceimage-container{
     height: 196px;
     width: 100%;
 }
-.image-container img{
+.HomeServiceimage-container img{
     height: 200px;
-    width: 100%;
     object-fit: cover;
 }
-.name-special{
+.HomeServicename-special{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end ;
+    margin-top: 15px;
 }
-.button{
+.HomeServicebutton{
     margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
-.name{
+.HomeServicename{
     font-size: 24px;
     font-weight: 800;
     margin: 0px;
     color: #06C7F2;
 }
-.card-body:hover{
+.HomeServicecard-body:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@
     border-radius: 12px;
     cursor: pointer;
 }
-.contact-btn{
+.HomeServicecontact-btn{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +72,7 @@
     cursor: pointer;
     width: 100%;
 }
-.contact-btn:hover{
+.HomeServicecontact-btn:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;

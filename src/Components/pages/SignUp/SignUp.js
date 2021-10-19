@@ -1,9 +1,19 @@
 import React from 'react';
 import { Button } from '../../Button';
 import './SignUp.css';
-import { AiFillFacebook, AiFillGoogleCircle, AiOutlineGithub } from 'react-icons/ai';
+import { AiFillGoogleCircle, AiOutlineGithub } from 'react-icons/ai';
+import { useHistory, useLocation } from 'react-router';
+import useAuth from '../../../hooks/useAuth';
 
 const SignUp = () => {
+  const { signInUsingGoogle, signInUsingGithub } = useAuth();
+  const location = useLocation();
+  const history = useHistory();
+  const redirect_uri = location.state?.from || '/sign-up';
+
+  const handleGoogleLogin = () => {
+    signInUsingGoogle().then((result) => { history.push(redirect_uri); })
+  }
   return (
     <div className="signup">
       <section className='signup-container'>
@@ -36,8 +46,7 @@ const SignUp = () => {
         <div className='input-area-btn'>
           <h2 className='signup-heading'>
             Sign Up with</h2>
-          <Button buttonStyle='btn--outline' buttonSize='btn--medium' buttonColor='black'><AiFillGoogleCircle className='auth-icons' /> Sign Up With Google</Button>
-          <Button buttonStyle='btn--outline' buttonSize='btn--medium' buttonColor='black'><AiFillFacebook className='auth-icons' />Sign Up With FaceBook</Button>
+          <Button onClick={handleGoogleLogin} buttonStyle='btn--outline' buttonSize='btn--medium' buttonColor='black'><AiFillGoogleCircle className='auth-icons' /> Sign Up With Google</Button>
           <Button buttonStyle='btn--outline' buttonSize='btn--medium' buttonColor='black'><AiOutlineGithub className='auth-icons' />Sign Up With Github</Button>
         </div>
       </section>
