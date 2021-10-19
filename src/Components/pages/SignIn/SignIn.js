@@ -1,16 +1,26 @@
-import React from 'react';
 import { Button } from '../../Button';
 import './SignIn.css';
 import { AiFillGoogleCircle, AiOutlineGithub } from 'react-icons/ai';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import { useEffect } from 'react';
 
 const SignIn = () => {
-    const { signInUsingGoogle, signInUsingGithub } = useAuth();
+    const {
+        user,
+        error,
+        setIsLogin,
+        handleEmailChange,
+        handlePasswordChange,
+        handleForm,
+        handleResetPassword,
+        signInUsingGoogle,
+        signInUsingGithub } = useAuth();
     const location = useLocation();
     const history = useHistory();
     const redirect_uri = location.state?.from || '/sign-in';
-    console.log(location.state)
+
+    console.log(location.state);
 
     const handleGoogleLogin = () => {
         signInUsingGoogle().then((response) => { history.push(redirect_uri); })
@@ -18,6 +28,12 @@ const SignIn = () => {
     const handleGithubLogin = () => {
         signInUsingGithub().then((response) => { history.push(redirect_uri); })
     }
+    useEffect(() => {
+        if (user.email) {
+            history.push(redirect_uri);
+        }
+    }, [user]);
+
 
     return (
         <div className="signin">
@@ -25,23 +41,33 @@ const SignIn = () => {
                 <h2 className='signin-heading'>
                     Sign In
                 </h2>
-                <div className='input-area'>
-                    <input
-                        className='signin-input'
-                        name='email'
-                        type='email'
-                        placeholder='Put E-mail'
-                    />
-                    <input
-                        className='signin-input'
-                        name='password'
-                        type='password'
-                        placeholder='Put password'
-                    />
-                    <Button buttonSize='btn--medium' buttonColor='blue'>Sign In</Button>
-                    <Button buttonStyle='btn--outline' buttonSize='btn--medium' buttonColor='black' > <Link to='/sign-up'>Dont have Account ?</Link></Button>
-                </div>
-            </section>
+                <form onSubmit={handleForm} >
+                    <div className='input-area'>
+                        <input
+                            onBlur={handleEmailChange}
+                            className='signin-input'
+                            name='email'
+                            type='email'
+                            placeholder='Put E-mail'
+                            required
+                        />
+                        <input
+                            onBlur={handlePasswordChange}
+                            className='signin-input'
+                            name='password'
+                            type='password'
+                            placeholder='Put password'
+                            required
+                        />
+                        <p style={{ margin: "2px" }} className="row mb-3 text-danger">{error}</p>
+                        <Button onClick={() => setIsLogin(true)} buttonSize='btn--medium' buttonColor='blue'>Sign In</Button>
+                        <Link style={{ textDecoration: "none", marginBottom: "14px" }} to='/sign-up'>
+                            <Button buttonStyle='btn--outline' buttonSize='btn--medium' buttonColor='black' > Dont have Account?</Button>
+                        </Link>
+                        <Button onClick={handleResetPassword} buttonSize='btn--medium' buttonColor='blue'>Reset Password</Button>
+                    </div>
+                </form>
+            </section >
             <section className="signin-container">
                 <div className='input-area-btn'>
                     <h2 className='signin-heading'>
@@ -50,7 +76,7 @@ const SignIn = () => {
                     <Button onClick={handleGithubLogin} buttonStyle='btn--outline' buttonSize='btn--medium' buttonColor='black'><AiOutlineGithub className='auth-icons' />Sign In With Github</Button>
                 </div>
             </section>
-        </div>
+        </div >
     );
 };
 

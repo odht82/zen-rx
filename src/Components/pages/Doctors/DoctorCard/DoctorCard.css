@@ -36,8 +36,8 @@
     margin-top: 10px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
+    text-decoration: none;
 }
 .name{
     font-size: 24px;
@@ -66,6 +66,8 @@
     background-color: #fff;
     cursor: pointer;
     width: 100%;
+    font-weight: 700;
+    font-size: 16px;
 }
 .contact-btn:hover{
     display: flex;

@@ -1,10 +1,10 @@
 import React from "react";
-// import { AiFillStar } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import { Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle } from "reactstrap";
 import "./ServiceCard.css";
 
 const ServiceCard = (props) => {
-    const { name, img, special, price } = props.service
+    const { key, name, img, special, price } = props.service
     return (
         <div>
             <Card>
@@ -20,9 +20,9 @@ const ServiceCard = (props) => {
                         <CardSubtitle tag="h4" className="mb-2 text-muted">{special}</CardSubtitle>
                         <CardText tag="h4" style={{ color: "#06C7F2", display: "flex", alignItems: "center", marginTop: "10px" }}>{price}</CardText>
                     </div>
-                    <div className="button">
+                    <Link className="button" to={`/details/${key}`}>
                         <Button className="contact-btn">Get Now</Button>
-                    </div>
+                    </Link>
                 </CardBody>
             </Card>
         </div >

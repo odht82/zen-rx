@@ -21,10 +21,8 @@ const DoctorCard = (props) => {
                         <CardSubtitle tag="h4" className="mb-2 text-muted">{special}</CardSubtitle>
                         <CardText tag="h4" style={{ color: '#06C7F2', display: 'flex', alignItems: 'center', marginTop: '10px' }}>{review} <AiFillStar style={{ color: '#06C7F2', height: "18px", width: "18px", alignContent: 'center', marginLeft: '5px' }} /></CardText>
                     </div>
-                    <Link to={`/doctors/${key}`}>
-                        <div className="button">
-                            <Button className='contact-btn'>Contact</Button>
-                        </div>
+                    <Link className="button" to={`/details/${key}`}>
+                        <Button className='contact-btn'>Contact</Button>
                     </Link>
 
                 </CardBody>

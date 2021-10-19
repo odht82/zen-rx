@@ -2,9 +2,10 @@ import React from 'react';
 import { Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle } from 'reactstrap';
 import './ProductCard.css';
 import { AiFillStar } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const ProductCard = (props) => {
-    const { name, price, review, img } = props.product;
+    const { key, name, price, review, img } = props.product;
     return (
         <div>
             <Card>
@@ -20,9 +21,9 @@ const ProductCard = (props) => {
                         <CardSubtitle tag="h3" className="mb-2 text-muted">{name}</CardSubtitle>
                         <CardText tag="h4" style={{ color: '#06C7F2', display: 'flex', alignItems: 'center', marginTop: '10px' }}>{review} <AiFillStar style={{ color: '#06C7F2', height: "18px", width: "18px", alignContent: 'center', marginLeft: '5px' }} /></CardText>
                     </div>
-                    <div className="button">
-                        <Button className='cart-add-btn  btn-secondary'>Add to cart</Button>
-                    </div>
+                    <Link className="button" to={`/details/${key}`}>
+                        <Button className='cart-add-btn  btn-secondary'>Buy Now</Button>
+                    </Link>
                 </CardBody>
             </Card>
         </div >

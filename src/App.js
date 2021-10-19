@@ -13,6 +13,7 @@ import Pricing from "./Components/Pricing";
 import NotFound from "./Components/pages/NotFound/NotFound";
 import PrivateRoute from './Components/pages/PrivateRoute/PrivateRoute';
 import AuthProvider from "./contexts/AuthProvider";
+import Details from "./Components/Details";
 
 function App() {
   return (
@@ -27,18 +28,21 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <PrivateRoute path="/products">
+            <PrivateRoute path="/details/:detailsId">
+              <Details></Details>
+            </PrivateRoute>
+            <Route path="/products">
               <Products></Products>
-            </PrivateRoute>
-            <PrivateRoute path="/services">
+            </Route>
+            <Route path="/services">
               <Services></Services>
-            </PrivateRoute>
+            </Route>
             <Route path="/pricing/">
               <Pricing></Pricing>
             </Route>
-            <PrivateRoute path="/doctors">
+            <Route path="/doctors">
               <Doctors></Doctors>
-            </PrivateRoute>
+            </Route>
             <Route path="/sign-in">
               <SignIn></SignIn>
             </Route>

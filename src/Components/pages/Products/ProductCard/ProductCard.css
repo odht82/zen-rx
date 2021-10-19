@@ -38,6 +38,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    text-decoration: none;
 }
 .price{
     font-size: 24px;
@@ -66,6 +67,8 @@
     background-color: #fff;
     cursor: pointer;
     width: 100%;
+    font-weight: 700;
+    font-size: 16px;
 }
 .cart-add-btn:hover{
     display: flex;

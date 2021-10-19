@@ -86,9 +86,14 @@ function Navbar() {
 
             {user.email ?
               (<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}><Button className='btn-link' buttonStyle='btn--outline' onClick={logOut}>Sign Out</Button>
-                <div style={{ backgroundColor: 'yellow', width: "50px", height: "50px", borderRadius: '8px', marginLeft: '10px', border: '2px solid #06C7F2' }}>
-                  <img style={{ width: "100%", height: "100%", objectFit: 'cover', borderRadius: '6px' }} src={user.photoURL} alt="" />
-                </div>
+                {user.photoURL ?
+                  <div style={{ backgroundColor: 'yellow', width: "50px", height: "50px", borderRadius: '8px', marginLeft: '10px', border: '2px solid #06C7F2' }}>
+                    <img style={{ width: "100%", height: "100%", objectFit: 'cover', borderRadius: '6px' }} src={user.photoURL} alt="" />
+                  </div> :
+                  <div style={{ display: 'none', backgroundColor: 'yellow', width: "50px", height: "50px", borderRadius: '8px', marginLeft: '10px', border: '2px solid #06C7F2' }}>
+                    <img style={{ display: 'none', width: "100%", height: "100%", objectFit: 'cover', borderRadius: '6px' }} src={user.photoURL} alt="" />
+                  </div>
+                }
                 <p style={{ fontSize: '18px', marginLeft: '10px', fontWeight: 'bold', color: '#099cbd' }}>{user.displayName}</p>
               </div>
               )
