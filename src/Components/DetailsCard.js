@@ -5,7 +5,7 @@ import { AiFillStar } from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 
 const DetailsCard = (props) => {
-    const { key, name, price, review, special, img, homePrevPath, prevPath } = props.details;
+    const { name, price, review, special, img, homePrevPath, prevPath } = props.details;
     console.log(homePrevPath)
     console.log(prevPath)
     return (

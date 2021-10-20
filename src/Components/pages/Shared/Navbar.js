@@ -65,7 +65,7 @@ function Navbar() {
                 Services
               </NavLink>
             </li>
-            <li className='nav-item'>
+            {!user.email && <li className='nav-item'>
               <NavLink activeStyle={{ fontWeight: '800', fontSize: '18px', color: '#06C7F2' }}
                 to='/pricing'
                 className='nav-links'
@@ -73,7 +73,7 @@ function Navbar() {
               >
                 Pricings
               </NavLink>
-            </li>
+            </li>}
             <li className='nav-item'>
               <NavLink activeStyle={{ fontWeight: '800', fontSize: '18px', color: '#06C7F2' }}
                 to='/doctors'
@@ -94,7 +94,9 @@ function Navbar() {
                     <img style={{ display: 'none', width: "100%", height: "100%", objectFit: 'cover', borderRadius: '6px' }} src={user.photoURL} alt="" />
                   </div>
                 }
-                <p style={{ fontSize: '18px', marginLeft: '10px', fontWeight: 'bold', color: '#099cbd' }}>{user.displayName}</p>
+                <p style={{
+                  fontSize: '18px', marginLeft: '10px', fontWeight: 'bold', color: '#71C6DA'
+                }}>{user.displayName}</p>
               </div>
               )
               :
