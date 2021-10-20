@@ -1,6 +1,6 @@
 # Zen-Rx Medical Treatment and Services
 
-This project Created for the peoples, who need to get Medical treatment or, services [Team JHC Agency Live site](https://zenrx-294ec.firebaseapp.com/).
+This project Created for the peoples, who need to get Medical treatment or, services [Team ZenRx Live site](https://zenrx-294ec.firebaseapp.com/).
 
 + ## Features
    In this project:  
@@ -14,6 +14,6 @@ This project Created for the peoples, who need to get Medical treatment or, serv
 + ### `Data included from extarnalDB`
    The api data is in the Extarnal storage.
 
-+ ### `This project created by React Library`
++ ### `This project created with React js, ReactStrap, Firebase, FakeAPI Data, React-Router`
 
 + ### `Ui Also designed by Md Obaydul Hoque`

@@ -102,20 +102,115 @@ img {
   display: inline-block;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 1023px){
   .container {
     padding-right: 30px;
     padding-left: 30px;
   }
+
+  .home__hero-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 42px;
+  }
+  .top-line {
+    color: #F2F2F2;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    width: 128px;
+    height: 24px;
+    padding: 4px 8px;
+    background-color: #71C6DA;
+    border-radius: 150px;
+    text-align: center;
+  }
+  .headingStart {
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #06C7F2;
+  }
+  .headingSpecial {
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #049DD9;
+  }
+  .headingEnd {
+    margin-bottom: 18px;
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #06C7F2;
+  }
+  .home__hero-subtitle {
+    max-width: 540px;
+    margin-bottom: 28px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #71C6DA;
+  }
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .home__hero-text-wrapper {
     padding-bottom: 65px;
   }
-
+  
   .col {
     max-width: 100%;
     flex-basis: 100%;
+  }
+
+  .home__hero-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 42px;
+  }
+  .top-line {
+    color: #F2F2F2;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    width: 128px;
+    height: 24px;
+    padding: 4px 8px;
+    background-color: #71C6DA;
+    border-radius: 150px;
+    text-align: center;
+  }
+  .headingStart {
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #06C7F2;
+  }
+  .headingSpecial {
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #049DD9;
+  }
+  .headingEnd {
+    margin-bottom: 18px;
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 800;
+    color: #06C7F2;
+  }
+  .home__hero-subtitle {
+    max-width: 540px;
+    margin-bottom: 28px;
+    font-size: 20px;
+    line-height: 28px;
+    color: #71C6DA;
   }
 }
