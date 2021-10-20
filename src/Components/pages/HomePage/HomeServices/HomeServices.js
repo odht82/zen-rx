@@ -5,7 +5,7 @@ import HomeServiceCard from "./HomeServiceCard/HomeServiceCard";
 function HomeServices() {
   const [HomeServices, setHomeservices] = useState([]);
   useEffect(() => {
-    fetch("./HomeServiceData.json")
+    fetch("https://raw.githubusercontent.com/odht82/fake-api-zen-rx/main/HomeServiceData.json")
       .then(res => res.json())
       .then(data => setHomeservices(data));
   }, [])

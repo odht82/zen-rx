@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '../../Button';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import { FaTimes } from 'react-icons/fa';
 import { VscListSelection } from 'react-icons/vsc';
@@ -43,45 +43,45 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <NavLink activeStyle={{ fontWeight: '800', fontSize: '18px', color: '#06C7F2' }} to='/home' className='nav-links' onClick={closeMobileMenu}>
                 Home
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink activeStyle={{ fontWeight: '800', fontSize: '18px', color: '#06C7F2' }}
                 to='/products'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Products
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink activeStyle={{ fontWeight: '800', fontSize: '18px', color: '#06C7F2' }}
                 to='/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Services
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink activeStyle={{ fontWeight: '800', fontSize: '18px', color: '#06C7F2' }}
                 to='/pricing'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Pricings
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link
+              <NavLink activeStyle={{ fontWeight: '800', fontSize: '18px', color: '#06C7F2' }}
                 to='/doctors'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Doctors
-              </Link>
+              </NavLink>
             </li>
 
             {user.email ?

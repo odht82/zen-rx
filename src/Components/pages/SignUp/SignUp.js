@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from '../../Button';
 import './SignUp.css';
 import { AiFillGoogleCircle, AiOutlineGithub } from 'react-icons/ai';
@@ -27,11 +27,11 @@ const SignUp = () => {
   const handleGithubLogin = () => {
     signInUsingGithub().then((response) => { history.push(redirect_uri); })
   }
-  const handleLogin = () => {
+  useEffect(() => {
     if (user.email) {
       history.push(redirect_uri);
-    } return;
-  }; handleLogin();
+    }
+  }, [history, redirect_uri, user.email]);
   return (
     <div className="signup">
       <section className='signup-container'>

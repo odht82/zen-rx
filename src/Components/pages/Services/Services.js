@@ -6,11 +6,10 @@ import ServiceCard from "./ServiceCard/ServiceCard";
 function Services() {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("./serviceData.json")
+    fetch("https://raw.githubusercontent.com/odht82/fake-api-zen-rx/main/serviceData.json")
       .then(res => res.json())
       .then(data => setServices(data));
   }, [])
-  console.log(services);
   return (
     <div className="service">
       <div className="service-container">

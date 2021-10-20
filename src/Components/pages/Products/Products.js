@@ -5,11 +5,10 @@ import ProductCard from './ProductCard/ProductCard';
 function Products() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch('./productData.json')
+    fetch('https://raw.githubusercontent.com/odht82/fake-api-zen-rx/main/productData.json')
       .then(res => res.json())
       .then(data => setProducts(data));
   }, [])
-  console.log(products)
   return (
     <div className="product">
       <div className="product-container">

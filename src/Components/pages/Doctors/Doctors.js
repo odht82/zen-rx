@@ -5,11 +5,10 @@ import './Doctors.css';
 const Doctors = () => {
     const [doctors, setDoctors] = useState([]);
     useEffect(() => {
-        fetch('./doctorData.json')
+        fetch('https://raw.githubusercontent.com/odht82/fake-api-zen-rx/main/doctorData.json')
             .then(res => res.json())
             .then(data => setDoctors(data));
     }, [])
-    console.log(doctors);
     return (
         <div className="doctor">
             <div className="doctor-container">

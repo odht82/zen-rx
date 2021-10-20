@@ -28,21 +28,33 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <PrivateRoute path="/details/:detailsId">
+            {/* <PrivateRoute path="/details/:detailsId">
               <Details></Details>
-            </PrivateRoute>
-            <Route path="/products">
+            </PrivateRoute> */}
+            <Route exact path="/products">
               <Products></Products>
             </Route>
-            <Route path="/services">
+            <PrivateRoute path="/products/details/:productId">
+              <Details></Details>
+            </PrivateRoute>
+            <Route exact path="/services">
               <Services></Services>
             </Route>
+            <PrivateRoute path="/services/details/:serviceId">
+              <Details></Details>
+            </PrivateRoute>
+            <PrivateRoute path="/home-service/details/:homeServiceId">
+              <Details></Details>
+            </PrivateRoute>
             <Route path="/pricing/">
               <Pricing></Pricing>
             </Route>
-            <Route path="/doctors">
+            <Route exact path="/doctors">
               <Doctors></Doctors>
             </Route>
+            <PrivateRoute path="/doctors/details/:doctorId">
+              <Details></Details>
+            </PrivateRoute>
             <Route path="/sign-in">
               <SignIn></SignIn>
             </Route>

@@ -32,7 +32,7 @@ const SignIn = () => {
         if (user.email) {
             history.push(redirect_uri);
         }
-    }, [user]);
+    }, [history, redirect_uri, user.email]);
 
 
     return (

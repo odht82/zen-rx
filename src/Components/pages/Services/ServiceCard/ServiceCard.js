@@ -20,7 +20,7 @@ const ServiceCard = (props) => {
                         <CardSubtitle tag="h4" className="mb-2 text-muted">{special}</CardSubtitle>
                         <CardText tag="h4" style={{ color: "#06C7F2", display: "flex", alignItems: "center", marginTop: "10px" }}>{price}</CardText>
                     </div>
-                    <Link className="button" to={`/details/${key}`}>
+                    <Link className="button" to={`/services/details/${key}`}>
                         <Button className="contact-btn">Get Now</Button>
                     </Link>
                 </CardBody>

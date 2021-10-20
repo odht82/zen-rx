@@ -121,7 +121,7 @@ const useFirebase = () => {
             setLoading(false);
         });
         return () => unsubscribe;
-    }, [])
+    }, [auth])
 
     return {
         email,
